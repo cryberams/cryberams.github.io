@@ -5,6 +5,7 @@
       <link rel="stylesheet" href="hobbystyle.css">
 </head>
   <body>
+  <audio src="https://cryberams.github.io/images/bamba.mp3"></audio>
     <div class="navvert">
       <img class="logo" src="https://cryberams.github.io/images/hobbylingo.png">
       <ul class="ulnav">
@@ -42,8 +43,8 @@
               <td class="hobbytableft">
                 <h1 class="hobbyt">Coding - Shlok Tamma</h1>
               </td>
-              <td class="hobbytabright">
-                <a class="hobbygo">Go</a>
+              <td onclick="play()" class="hobbytabright">
+                <a onclick="play()" class="hobbygo">Go</a>
               </td>
             </tr>
           </table>
@@ -58,7 +59,7 @@
                 <h1 class="hobbyt">Cricket - Vishnu Kodavaluru
                 </h1>
               </td>
-              <td class="hobbytabright2">
+              <td onclick="cricket()" class="hobbytabright2">
                 <a class="hobbygo">Go</a>
               </td>
             </tr>
@@ -74,7 +75,7 @@
                 <h1 class="hobbyt">Guitar - Rithwik Prattipatiru
                 </h1>
               </td>
-              <td class="hobbytabright3">
+              <td onclick="play()" class="hobbytabright3">
                 <a class="hobbygo">Go</a>
               </td>
             </tr>
@@ -90,7 +91,7 @@
                 <h1 class="hobbyt">Sohan Savadi
                 </h1>
               </td>
-              <td class="hobbytabright4">
+              <td onclick="play()" class="hobbytabright4">
                 <a class="hobbygo">Go</a>
               </td>
             </tr>
@@ -125,7 +126,7 @@
 
                 </h1>
               </td>
-              <td class="hobbytabright6">
+              <td onclick="play()" class="hobbytabright6">
                 <a class="hobbygo">Go</a>
               </td>
             </tr>
@@ -141,7 +142,7 @@
                 <h1 class="hobbyt">Baseball - Mason Eldridge
                 </h1>
               </td>
-              <td class="hobbytabright7">
+              <td onclick="play()" class="hobbytabright7">
                 <a class="hobbygo">Go</a>
               </td>
             </tr>
@@ -158,7 +159,7 @@
 
                 </h1>
               </td>
-              <td class="hobbytabright8">
+              <td onclick="play()" class="hobbytabright8">
                 <a class="hobbygo">Go</a>
               </td>
             </tr>
@@ -173,7 +174,7 @@
                 <h1 class="hobbyt"><span style="color:black;">M-Arts - Ahmed, Habib</span>
                 </h1>
               </td>
-              <td class="hobbytabright9">
+              <td onclick="play()" class="hobbytabright9">
                 <a class="hobbygo">Go</a>
               </td>
             </tr>
@@ -191,7 +192,7 @@
 
                 </h1>
               </td>
-              <td class="hobbytabright10">
+              <td onclick="play()" class="hobbytabright10">
                 <a class="hobbygo">Go</a>
               </td>
             </tr>
@@ -229,6 +230,16 @@
   function home() {
    window.open("https://cryberams.github.io/");
   }
+  
+   function cricket() {
+   window.open("https://cryberams.github.io/cricket");
+  }
+  
+  function play() {
+ const audio = document.querySelector("audio");
+  audio.volume = 1;
+  audio.play();
+}
   </script>
 
 </html>
