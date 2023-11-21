@@ -1,0 +1,512 @@
+body {
+  margin: 0px;
+  background-color: #131f24;
+    min-width: 980px;
+        display: flex;
+  flex-direction: column;
+}
+
+.navvert {
+  height: 100vh;
+  width: 250px;
+  border-right: #37464f solid 2px;
+  position: fixed;
+  float: left;
+}
+
+.ulnav {
+  margin: 0;
+  list-style-type: none;
+  padding: 9%;
+    padding-left: 5%;
+
+}
+
+.ulnav li {
+    width: 100%;
+  height: 55px;
+  margin-bottom: 5%;
+border-radius: 10px;
+user-select: none;
+padding: 10px 0px 0 5px;
+box-sizing: border-box;
+}
+
+.ulnav li:hover {
+background: #202f36;
+}
+
+
+.ulnav li a {
+
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  text-align: center;
+margin: auto;
+padding: 17px;
+font-family: Verdana;
+color: #dce6ec;
+
+
+}
+
+.active {
+background-color: #202f36;
+border: 2.5px solid #3f85a7;
+}
+
+.activetext {
+color: #40c0f8 !important;
+}
+
+
+
+
+
+.logo {
+  margin: 30px 50px 0px 20px;
+width: 180px;
+}
+
+.next2text {
+  float: left;
+  margin-left: 10px;
+}
+
+.butext {
+  padding: 5px;
+}
+
+.total {
+width: 100%;
+margin-left: 250px;
+
+}
+
+.middle {
+position: fixed;
+  width: 40% ;
+  height: 100vh;
+  padding: 40px 30px 30px 30px;
+  box-sizing: border-box;
+  max-width: 660px;
+  font-family: verdana;
+  overflow-x: hidden;
+overflow-y: auto;
+-ms-overflow-style: none;
+
+}
+
+.middle::-webkit-scrollbar {
+  display: none;
+}
+
+.hobby1 {
+  width: 100%;
+  height: 150px;
+  background-color: #5f9afa;
+  border-radius: 15px;
+  padding: 10px 30px 10px 20px;
+  box-sizing: border-box;
+         background-image: url("https://cryberams.github.io/images/laptop.png");
+      background-position: center bottom;
+        background-position-x: 75%; 
+             background-position-y: -30px; 
+  background-repeat: no-repeat;
+  background-size: 230px;
+}
+
+.hobbyt {
+    color: #ffffff;
+  font-family: Verdana;
+  font-size: 25px;
+
+}
+
+.hobbytab {
+  width: 100%;
+    height: 100%;
+}
+
+
+.hobbygo {
+  color: #ffffff;
+    font-size: 30px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.hobbytableft {
+  width: 80%;
+      height: 100%;
+      float: left;
+      
+      
+}
+
+.hobbytabright {
+  width: 20%;
+      height: 100%;
+            background-color: #2375fa;
+            margin-left: 70%;
+            padding: 30px;
+              box-sizing: border-box;
+              border-radius: 15px;
+           
+          
+       
+}
+
+
+.hobbytabright:hover {
+background-color: #327efa;
+      
+}
+
+
+.hobby2 {
+  width: 100%;
+  height: 150px;
+  background-color: #f07de2;
+  border-radius: 15px;
+  padding: 10px 30px 10px 20px;
+  box-sizing: border-box;
+  margin-top: 15px;
+         background-image: url("https://cryberams.github.io/images/cricket.png");
+      background-position: center bottom;
+        background-repeat: no-repeat;
+             background-position-y: -10px;
+                       background-position-x: 70%;
+                                 background-size: 170px;
+}
+
+.hobbytabright2 {
+  width: 20%;
+      height: 100%;
+            background-color: #f249de;
+            margin-left: 70%;
+            padding: 30px;
+              box-sizing: border-box;
+              border-radius: 15px;
+      
+    
+}
+
+
+.hobbytabright2:hover {
+background-color: #f55de2;
+      
+}
+
+.hobby3 {
+  width: 100%;
+  height: 150px;
+  background-color: #28bf53;
+  border-radius: 15px;
+  padding: 10px 30px 10px 20px;
+  box-sizing: border-box;
+  margin-top: 15px;
+    background-image: url("https://cryberams.github.io/images/guitar.png");
+      background-position: right bottom;
+  background-repeat: no-repeat;
+
+}
+
+.hobbytabright3 {
+  width: 20%;
+      height: 100%;
+            background-color: #088c2e;
+            margin-left: 70%;
+            padding: 30px;
+              box-sizing: border-box;
+              border-radius: 15px;
+
+}
+
+
+.hobbytabright3:hover {
+background-color: #10a139;
+      
+}
+
+.hobby4 {
+  width: 100%;
+  height: 150px;
+  background-color: #e39f20;
+  border-radius: 15px;
+  padding: 10px 30px 10px 20px;
+  box-sizing: border-box;
+  margin-top: 15px;
+ 
+}
+
+.hobbytabright4 {
+  width: 20%;
+      height: 100%;
+            background-color: #ba7a02;
+            margin-left: 70%;
+            padding: 30px;
+              box-sizing: border-box;
+              border-radius: 15px;
+
+}
+
+
+.hobbytabright4:hover {
+background-color: #cc890a;
+      
+}
+
+.hobby5 {
+  width: 100%;
+  height: 150px;
+  background-color: #cc231b;
+  border-radius: 15px;
+  padding: 10px 30px 10px 20px;
+  box-sizing: border-box;
+  margin-top: 15px;
+   background-image: url("https://cryberams.github.io/images/bike.png");
+      background-position: center bottom;
+        background-repeat: no-repeat;
+                   background-position-y: 30px;
+                       background-position-x: 70%;
+                                 background-size: 300px;
+}
+
+.hobbytabright5 {
+  width: 20%;
+      height: 100%;
+            background-color: #ab0c03;
+            margin-left: 70%;
+            padding: 30px;
+              box-sizing: border-box;
+              border-radius: 15px;
+
+}
+
+
+.hobbytabright5:hover {
+background-color: #bd0f06;
+      
+}
+
+
+.hobby6 {
+  width: 100%;
+  height: 150px;
+  background-color: #b4bd08;
+  border-radius: 15px;
+  padding: 10px 30px 10px 20px;
+  box-sizing: border-box;
+  margin-top: 15px;
+  
+}
+
+.hobbytabright6 {
+  width: 20%;
+      height: 100%;
+            background-color: #8d9401;
+            margin-left: 70%;
+            padding: 30px;
+              box-sizing: border-box;
+              border-radius: 15px;
+
+}
+
+
+.hobbytabright6:hover {
+background-color: #a3ab02;
+      
+}
+
+.hobby7 {
+  width: 100%;
+  height: 150px;
+  background-color: #251cd4;
+  border-radius: 15px;
+  padding: 10px 30px 10px 20px;
+  box-sizing: border-box;
+  margin-top: 15px;
+    background-image: url("https://cryberams.github.io/images/baseball.png");
+      background-position: center bottom;
+        background-repeat: no-repeat;
+                   background-position-y: -10px;
+                       background-position-x: 95%;
+                                 background-size: 400px;
+}
+
+.hobbytabright7 {
+  width: 20%;
+      height: 100%;
+            background-color: #09029e;
+            margin-left: 70%;
+            padding: 30px;
+              box-sizing: border-box;
+              border-radius: 15px;
+
+}
+
+
+.hobbytabright7:hover {
+background-color: #0d04c2;
+      
+}
+
+.hobby8 {
+  width: 100%;
+  height: 150px;
+  background-color: #9716ba;
+  border-radius: 15px;
+  padding: 10px 30px 10px 20px;
+  box-sizing: border-box;
+  margin-top: 15px;
+      background-image: url("https://cryberams.github.io/images/art.png");
+      background-position: center bottom;
+        background-repeat: no-repeat;
+                   background-position-y: -10px;
+                       background-position-x: 85%;
+                                 background-size: 300px;
+}
+
+.hobbytabright8 {
+  width: 20%;
+      height: 100%;
+            background-color: #630d7a;
+            margin-left: 70%;
+            padding: 30px;
+              box-sizing: border-box;
+              border-radius: 15px;
+
+}
+
+
+.hobbytabright8:hover {
+background-color: #6c0c87;
+      
+}
+
+.hobby9 {
+  width: 100%;
+  height: 150px;
+  background-image: url("https://www.shutterstock.com/shutterstock/videos/22136512/thumb/1.jpg?ip=x480");
+  border-radius: 15px;
+  padding: 10px 30px 10px 20px;
+  box-sizing: border-box;
+  margin-top: 15px;
+}
+
+.hobbytabright9 {
+  width: 20%;
+      height: 100%;
+        background-image: url("https://static.vecteezy.com/system/resources/thumbnails/006/911/398/small/rainbow-waves-background-free-vector.jpg");
+            margin-left: 70%;
+            padding: 30px;
+              box-sizing: border-box;
+              border-radius: 15px;
+
+}
+
+
+.hobbytabright9:hover {
+opacity: 0.8;
+      
+}
+
+.hobby10 {
+  width: 100%;
+  height: 150px;
+  background-color: #fa5716;
+  border-radius: 15px;
+  padding: 10px 30px 10px 20px;
+  box-sizing: border-box;
+  margin-top: 15px;
+        background-image: url("https://cryberams.github.io/images/badminton.png");
+      background-position: center bottom;
+        background-repeat: no-repeat;
+                   background-position-y: 25px;
+                       background-position-x: 97%;
+                                 background-size: 300px;
+}
+
+.hobbytabright10 {
+  width: 20%;
+      height: 100%;
+            background-color: #b53604;
+            margin-left: 70%;
+            padding: 30px;
+              box-sizing: border-box;
+              border-radius: 15px;
+
+}
+
+
+.hobbytabright10:hover {
+background-color: #d43f04;
+      
+}
+
+
+
+.right {
+right: 0;
+    width: 390px;
+  height: 100vh;
+  padding: 40px 30px 30px 30px;
+  box-sizing: border-box;
+  position: fixed;
+  overflow-x: hidden;
+overflow-y: auto;
+-ms-overflow-style: none;
+
+
+}
+
+.right::-webkit-scrollbar {
+  display: none;
+}
+
+.duoinbox {
+  width: 320px;
+  height: 250px;
+  border-radius: 20px;
+border: 3px solid #37464F; 
+  box-sizing: border-box;
+padding: 10px 0px 0px 20px;
+float: right
+
+}
+
+.duoimg {
+  padding-left: 77px;
+  margin-bottom: -30px;
+    margin-top: -10px;
+  width: 150px;
+}
+
+.duoimgtext {
+  color: #ffffff;
+  font-family: Verdana;
+  font-size: 19px;
+  padding-left: -60px;
+}
+
+.duoimgtext2{
+  color: #ffffff;
+  font-family: Verdana;
+  font-size: 16px;
+margin-left: 75px;
+}
+
+.duoinbox2 {
+  width: 320px;
+  height: 200px;
+  border-radius: 20px;
+border: 3px solid #37464F; 
+  box-sizing: border-box;
+padding: 10px 0px 0px 20px;
+margin-top: 20px;
+float: right
+}
