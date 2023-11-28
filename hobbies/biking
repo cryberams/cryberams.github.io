@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Biking</title>
+      <link rel="stylesheet" href="https://cryberams.github.io
+/allhob.css">
+</head>
+  <body >
+        
+  <div class="navvert">
+      <img class="logo" src="https://cryberams.github.io/images/hobbylingo.png">
+      <ul class="ulnav">
+        <li onclick="home()">
+          <div class="next2text">
+            <img src="https://d35aaqx5ub95lt.cloudfront.net/vendor/784035717e2ff1d448c0f6cc4efc89fb.svg">
+          </div>
+          <div class="butext">
+            <a>Home</a>
+          </div>
+
+        </li>
+        <li class="active">
+          <div class="next2text">
+            <img src="https://d35aaqx5ub95lt.cloudfront.net/vendor/7ef36bae3f9d68fc763d3451b5167836.svg">
+          </div>
+          <div class="butext">
+            <a class="activetext">Hobbies</a>
+          </div>
+        </li>
+
+      </ul>
+
+    </div>
+
+
+
+
+
+    <div class="total">
+
+
+      <div class="middle">
+
+
+        <div class="headerbox">
+          <table>
+            <tb>
+              <tr>
+                <td class="texttd">
+                  <h1  class="headertext"> Biking</h1>
+                  <p1 class="headertext2">Darren Xu
+
+</p1>
+                </td>
+                <td class="buttontd">
+                  <div class="button">
+
+
+                    <div class="next2textbutton">
+                      <img src="https://d35aaqx5ub95lt.cloudfront.net/images/path/5b531828e59ae83aadb3d88e6b3a98a8.svg">
+                    </div>
+                    <div onclick="play()" class="buttontext">
+                      <a><b>click</b></a>
+                    </div>
+
+                  </div>
+
+                </td>
+              </tr>
+            </tb>
+          </table>
+
+        </div>
+<h1 style="margin-top:40px;" class="headertext">
+Introduction
+
+</h1>
+<br>
+<p1 class="headertext2">
+
+My name is Darren Xu, and I'm passionate about biking, a pastime that has captivated hearts and propelled riders around the globe for centuries. Today, we embark on a captivating journey through the world of biking, exploring its rich history, diverse styles, and the myriad of benefits it bestows upon our minds and bodies.
+</p1>
+<h1 style="margin-top:40px;" class="headertext">
+Biking: A World of Adventure and Wellness 
+</h1>
+<p1 class="headertext2">
+
+Biking, also known as cycling, is an exhilarating sport that has captivated enthusiasts worldwide, particularly in Europe and the northeastern regions of Asia. It is a pastime that seamlessly blends physical activity with the joy of exploration, offering a unique blend of adventure and wellness.
+
+
+</p1>
+
+<h1 style="margin-top:40px;" class="headertext">
+The Essence of Biking: A Symphony of Human Power and Mechanical Ingenuity
+
+</h1>
+<br>
+<p1 class="headertext2">
+
+At its core, biking is a symphony of human power and mechanical ingenuity. Riders harness the strength of their legs, propelling themselves forward with the rhythmic cadence of their pedals. The bicycle, a marvel of engineering, amplifies this effort, transforming human energy into motion, carrying riders across landscapes both urban and rural. Biking can also help the brain with processing and remembering information. You ever hear the saying that you never forget how to ride a bike. 
+
+</p1>
+<h1 style="margin-top:40px;" class="headertext">
+Beyond Transportation: A Gateway to Adventure and Wellness
+
+</h1>
+<br>
+<p1 class="headertext2">
+Biking transcends its role as mere transportation, opening doors to a world of adventure and wellness. It is a gateway to scenic vistas, hidden gems tucked away from bustling city streets. With each turn of the pedals, riders embark on a journey of self-discovery, immersing themselves in the beauty of the natural world.
+
+
+</p1>
+<h1 style="margin-top:40px;" class="headertext">
+A Sport for All: Embracing Biking's Inclusive Nature
+
+</h1>
+
+<p1 class="headertext2">
+
+Biking is a sport that welcomes individuals of all ages, abilities, and backgrounds. Whether you're a seasoned cyclist conquering challenging terrains or a novice seeking leisurely rides along tranquil paths, biking offers a rewarding experience for all.
+
+</p1>
+
+<h1 style="margin-top:40px;" class="headertext">
+Join the Movement: Embrace the Joy of Biking
+</h1>
+<p1 class="headertext2">
+So, join the movement and embrace the joy of biking. Discover the thrill of conquering hills, the serenity of gliding through tranquil landscapes, and the camaraderie of fellow cyclists. Let the rhythmic cadence of your pedals propel you forward, transforming ordinary journeys into extraordinary adventures.
+
+
+</p1>
+
+      </div>
+
+
+
+      <div class="right">
+
+        <div class="duoinbox">
+          <h1 class="duoimgtext">
+            asdfsadhfiosdaf
+          </h1>
+          <img class="duoimg" src="https://d35aaqx5ub95lt.cloudfront.net/images/700755cf688b76a1eba261e682def131.svg">
+          <p class="duoimgtext2">lego robot omg</p>
+        </div>
+        <div class="duoinbox2">
+          <p1>youauduad</p1>
+  
+        </div>
+      </div>
+
+
+    </div>
+
+  </body>
+  
+  <script>
+  function home() {
+location.replace("https://cryberams.github.io/");
+  }
+  
+
+ 
+  </script>
+
+</html>
