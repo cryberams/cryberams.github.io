@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>yea</title>
+      <link rel="stylesheet" href="allhob.css">
+</head>
+  <body onclick="play()">
+        <audio src="https://cryberams.github.io/images/bamba.mp3"></audio>
+  <div class="navvert">
+      <img class="logo" src="https://cryberams.github.io/images/hobbylingo.png">
+      <ul class="ulnav">
+        <li onclick="home()">
+          <div class="next2text">
+            <img src="https://d35aaqx5ub95lt.cloudfront.net/vendor/784035717e2ff1d448c0f6cc4efc89fb.svg">
+          </div>
+          <div class="butext">
+            <a>Home</a>
+          </div>
+
+        </li>
+        <li class="active">
+          <div class="next2text">
+            <img src="https://d35aaqx5ub95lt.cloudfront.net/vendor/7ef36bae3f9d68fc763d3451b5167836.svg">
+          </div>
+          <div class="butext">
+            <a class="activetext">Hobbies</a>
+          </div>
+        </li>
+
+      </ul>
+
+    </div>
+
+
+
+
+
+    <div class="total">
+
+
+      <div class="middle">
+
+
+        <div class="headerbox">
+          <table>
+            <tb>
+              <tr>
+                <td class="texttd">
+                  <h1  class="headertext"> Cricket</h1>
+                  <p1 class="headertext2">Vishnu Charan Kodavaluru
+</p1>
+                </td>
+                <td class="buttontd">
+                  <div class="button">
+
+
+                    <div class="next2textbutton">
+                      <img src="https://d35aaqx5ub95lt.cloudfront.net/images/path/5b531828e59ae83aadb3d88e6b3a98a8.svg">
+                    </div>
+                    <div onclick="play()" class="buttontext">
+                      <a><b>click</b></a>
+                    </div>
+
+                  </div>
+
+                </td>
+              </tr>
+            </tb>
+          </table>
+
+        </div>
+<h1 style="margin-top:40px;" class="headertext">
+ Exploring the World of Cricket: Beyond Baseball
+</h1>
+<br>
+<p1 class="headertext2">I'm Vishnu, and I'm passionate about cricket, a sport often mistaken for its American counterpart, baseball. Today, we'll uncover the unique charm of cricket, delving into its rich history, captivating gameplay, and the camaraderie it fosters.
+Cricket is more than just a game; it's a tapestry of tradition, strategy, and athleticism. Imagine a sun-drenched field, the rhythmic thwack of willow against leather, and the anticipation that builds as the bowler unleashes the ball.
+<br><br>
+While baseball and cricket share similarities, they diverge in fundamental ways. The cricket bat's flat face contrasts with baseball's rounded slugger, and the pitch is vast compared to baseball's diamond. The scoring system, with its intricate runs and wickets, adds depth to cricket.
+<br><br>
+Prepare to be captivated by spin bowling, fielding acrobatics, and the strategic brilliance of captains.
+Join me as we explore cricket's captivating world, unraveling its history, celebrating its iconic moments, and appreciating its passionate fan base.
+
+
+
+</p1>
+        <img class="bigimg" src="https://cryberams.github.io/images
+/cricketguy.jpg">
+        <p1 class="imgtext">Virat Kohli, one of the best cricketers in the world.
+
+</p1>
+<h1 style="margin-top:40px;" class="headertext">
+Cricket and Origins
+</h1>
+<br>
+<p1 class="headertext2">
+Cricket is a sport that originated in England in the 17th century. Most experts say that cricket was invented during the Norman and Saxon times when children living in the Weald started playing this unique sport. Later sports experts wandered across this unique sport and developed on it. In 1787 the first professional cricket game debuted at Lord's Cricket Ground in London. By the end of the 18th century, cricket had spread to many places around the world. It became an international sport that to this day is the 2nd most followed sport in the world, with over 1 billion followers.
+
+
+</p1>
+<h1 style="margin-top:40px;" class="headertext">
+The Rules of Cricket
+</h1>
+<br>
+<p1 class="headertext2">
+Cricket is a bat and ball sport played with 11 players on 2 teams. One of the teams is batting and the other is bowling. The batting team tries to score points, or runs by hitting the ball and running in between a 22 yard 
+
+</p1>
+
+
+      </div>
+
+
+
+      <div class="right">
+
+        <div class="duoinbox">
+          <h1 class="duoimgtext">
+            asdfsadhfiosdaf
+          </h1>
+          <img class="duoimg" src="https://d35aaqx5ub95lt.cloudfront.net/images/700755cf688b76a1eba261e682def131.svg">
+          <p class="duoimgtext2">lego robot omg</p>
+        </div>
+        <div class="duoinbox2">
+          <p1>youauduad</p1>
+  
+        </div>
+      </div>
+
+
+    </div>
+
+  </body>
+  
+  <script>
+  function home() {
+location.replace("https://cryberams.github.io/");
+  }
+  
+  function play() {
+ const audio = document.querySelector("audio");
+  audio.volume = 1;
+  audio.play();
+}
+ 
+  </script>
+
+</html>
